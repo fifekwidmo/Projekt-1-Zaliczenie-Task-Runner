@@ -296,9 +296,69 @@ footer .container-fifth .socials .social a i {
 }
 
 @media (max-width: 767px) {
-  nav ul {
+  .container-first {
     -ms-flex-direction: column;
         flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .container-first nav ul {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  .container-first nav ul li {
+    text-align: center;
+  }
+  .container-first nav ul li a {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .container-second {
+    margin-top: -150px;
+  }
+  .container-second .header-subtitle {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  section {
+    height: 90vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .container-third {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 50px 10px;
+  }
+  .container-third .service {
+    padding: 0;
+  }
+  .portfolio {
+    margin-top: 350px;
+  }
+  .container-fifth {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
