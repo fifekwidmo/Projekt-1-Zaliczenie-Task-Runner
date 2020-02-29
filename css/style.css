@@ -294,4 +294,11 @@ footer .container-fifth .socials .social a i {
   line-height: 40px;
   color: white;
 }
+
+@media (max-width: 767px) {
+  nav ul {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
 /*# sourceMappingURL=style.css.map */
