@@ -63,7 +63,7 @@ header:before {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  z-index: 1;
+  position: relative;
 }
 
 .container-first {
@@ -73,7 +73,6 @@ header:before {
       flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  z-index: 1;
 }
 
 .container-first .brand {
@@ -131,7 +130,6 @@ header:before {
   -ms-flex-align: center;
       align-items: center;
   height: 75vh;
-  z-index: 1;
 }
 
 .container-second .header-subtitle {
@@ -152,6 +150,12 @@ header:before {
   border: 2px solid rgba(255, 255, 255, 0.75);
   padding: 8px 37px;
   font-size: 12px;
+}
+
+.container-second .btn-first:hover {
+  color: #111;
+  border-color: transparent;
+  background: #fff;
 }
 
 .services h2,

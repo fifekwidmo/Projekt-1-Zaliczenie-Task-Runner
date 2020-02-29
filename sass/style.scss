@@ -72,14 +72,13 @@ header:before {
 .main-container {
     display: flex;
     flex-direction: column;
-    z-index: 1;
+    position: relative;
 }
 
 .container-first {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    z-index: 1;
     .brand {
         flex: 1 30%;
         line-height: 16px;
@@ -121,7 +120,6 @@ header:before {
     justify-content: center;
     align-items: center;
     height: 75vh;
-    z-index: 1;
     .header-subtitle {
         color: $maincolor;
     }
