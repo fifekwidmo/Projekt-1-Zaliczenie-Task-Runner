@@ -141,7 +141,8 @@ header:before {
 }
 
 // services
-.services h2 {
+.services h2,
+.portfolio h2 {
     font-size: 30px;
 }
 
@@ -170,6 +171,41 @@ header:before {
             text-align: center;
             font-weight: bold;
             color: yellow;
+        }
+    }
+}
+
+// portfolio
+.portfolio {
+    background-color: #E5E6E8;
+    margin-top: 100px;
+    height: 100%;
+    .container-fourth {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 150px;
+        padding-right: 150px;
+        margin-top: 100px;
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-basis: 20%;
+            margin-right: 20px;
+            img {
+                width: 300px;
+                height: 300px;
+            }
+            .description {
+                background-color: white;
+                margin-bottom: 50px;
+                h4 {
+                    font-style: italic;
+                    margin-top: 20px;
+                }
+            }
         }
     }
 }
