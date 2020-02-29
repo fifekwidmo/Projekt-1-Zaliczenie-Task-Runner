@@ -242,4 +242,55 @@ header:before {
   font-style: italic;
   margin-top: 20px;
 }
+
+footer {
+  height: 10vh;
+}
+
+footer .container-fifth {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 30px;
+}
+
+footer .container-fifth .copyright {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+footer .container-fifth .socials {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+footer .container-fifth .socials .social {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin-right: 20px;
+  background-color: black;
+}
+
+footer .container-fifth .socials .social a {
+  text-align: center;
+  text-decoration: none;
+}
+
+footer .container-fifth .socials .social a i {
+  font-size: 40px;
+  display: block;
+  line-height: 40px;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
