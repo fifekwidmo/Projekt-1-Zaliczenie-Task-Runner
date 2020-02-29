@@ -63,6 +63,7 @@ header:before {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  z-index: 1;
 }
 
 .container-first {
@@ -130,7 +131,7 @@ header:before {
   -ms-flex-align: center;
       align-items: center;
   height: 75vh;
-  z-index: 2;
+  z-index: 1;
 }
 
 .container-second .header-subtitle {
