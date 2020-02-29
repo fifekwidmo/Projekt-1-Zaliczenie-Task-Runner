@@ -1,0 +1,119 @@
+/*Import*/
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+/*Variable*/
+
+$maincolor: rgba(255,
+255,
+255,
+.75);
+
+/*Global*/
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Open Sans", arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//header
+header {
+    background-image: url('http://rhythm.bestlooker.pro/images/full-width-images/section-bg-10.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+header:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(34, 34, 34, .5);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-first {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    z-index: 1;
+    .brand {
+        flex: 1 30%;
+        line-height: 16px;
+        padding: 20px;
+        text-transform: uppercase;
+        margin: 1rem;
+        text-align: center;
+        color: yellow;
+        font-weight: 400;
+        font-family: 'Indie Flower', sans-serif;
+    }
+    nav {
+        flex: 1 70%;
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            li {
+                flex-basis: 20%;
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    padding: 20px;
+                    color: black;
+                    display: block;
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.container-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    z-index: 2;
+    .header-subtitle {
+        color: $maincolor;
+        text-transform: uppercase;
+    }
+    .header-title {
+        color: $maincolor;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-size: 48px;
+    }
+    .btn-first {
+        color: $maincolor;
+        border: none;
+        background: transparent;
+        text-transform: uppercase;
+        border: 2px solid rgba(255, 255, 255, .75);
+        padding: 8px 37px;
+        font-size: 12px;
+    }
+}
