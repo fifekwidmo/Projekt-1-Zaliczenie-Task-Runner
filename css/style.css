@@ -361,4 +361,16 @@ footer .container-fifth .socials .social a i {
         align-items: center;
   }
 }
+
+@media (max-width: 375px) {
+  .portfolio {
+    margin-top: 550px;
+  }
+  .container-second .header-title {
+    font-size: 20px;
+  }
+  .container-second .header-subtitle {
+    font-size: 16px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
